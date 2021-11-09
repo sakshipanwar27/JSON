@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h2>
+            Acces array values
+        </h2>
+        <p id= "demo"></p>
+        <script>
+            const muJSON = '{ "name": "SARA ","age":22 , "college":[" KIET ","AKG","ABES"]}';
+            const myobj=JSON.parse(muJSON);
+            document.getElementById("demo").innerHTML=myobj.college[0];
+            
+        </script>
+    </body>
+</html>
